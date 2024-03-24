@@ -18,7 +18,7 @@ Model training relies on relevant data from five mainstream open source chips an
 
 ## Achievements and Honors
 
-YogurtNet won the third prize in the national finals, and the paper based on this work has been successfully submitted to the 2024 3rd International Conference on Electronics and Integrated Circuit Technology (EICT 2024). The citation  information will be updated after the paper is officially published in the *Journal of Physics*.
+YogurtNet won the third prize in the national finals, and the paper based on this work has been successfully submitted to the 2024 3rd International Conference on Electronics and Integrated Circuit Technology (EICT 2024), Nanjing, China. The citation  information will be updated after the paper is officially published in the *Journal of Physics*.
 
 ## Team Members
 
