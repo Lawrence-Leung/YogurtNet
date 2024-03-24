@@ -21,7 +21,7 @@ YogurtNet 在全国总决赛中荣获三等奖，并基于该作品撰写的论�
 ## 团队成员
 
 - **Lawrence Leung**：负责算法设计。
-- **Yuxiang Xian (Github 用户：`Silhouette6`)**：负责代码框架设计。
+- **Yuxiang Xian (Github 用户：@Silhouette6 )**：负责代码框架设计。
 
 ## 仓库内容
 
