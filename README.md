@@ -1,6 +1,6 @@
 
 
-![YogurtNetLogoWithCaption](assets/f890e60d333f3721165cfe1f3d3fab792fd849ef.png)
+![YogurtNetLogoWithCaption](dp.png)
 
 
 
