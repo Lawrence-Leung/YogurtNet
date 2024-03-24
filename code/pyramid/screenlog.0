@@ -1,0 +1,202 @@
+(base) stxianyx@edaserver07:~/code/eda/ddl/pyramid$ [K(base) stxianyx@edaserver07:~/code/eda/ddl/pyramid$ conda e[Kactivate eda
+(eda) stxianyx@edaserver07:~/code/eda/ddl/pyramid$ ls
+[0m[01;34mallmodels[0m  Class_pyramid.py  config.json          config_zeroriscy.json  [01;34mlogger[0m  parse_config.py  [01;34msaved[0m        test.py  train.py
+[01;34mbase[0m       config_fpu.json   config_nonzero.json  [01;34mdata_loader[0m            [01;34mmodel[0m   [01;34m__pycache__[0m      screenlog.0  [01;34mtrainer[0m  [01;34mutils[0m
+(eda) stxianyx@edaserver07:~/code/eda/ddl/pyramid$ cd ..
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ clear
+[H[J(eda) stxianyx@edaserver07:~/code/eda/ddl$ python 
+autoprocess.py               pyramid/                     utils_preprocess.py          
+pix2pix/                     utils_postprocess_matric.py  Voc_Table/                   
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ python autoprocess.py /home/stxianyx/code/eda/data/ [K utils_preprocess.py [1@-[1@-[1@e[1@n[1@t[1@r[1@a[1@n[1@e[1P[1@c[1@e[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@-[1@p[1@y[1@s[1@c[1@r[1@i[1@p[1@t[1@ [1P[1@=[C[1P[1@=
+usage: autoprocess.py [-h] [--entrance ENTRANCE] [--pyscript PYSCRIPT]
+autoprocess.py: error: unrecognized arguments: -pyscript=utils_preprocess.py
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ python autoprocess.py --entrance=/home/stxianyx/code/eda/data/ -pyscript=utils_preprocess.py [1@-
+开始搜索 '/home/stxianyx/code/eda/data/' 以找到包含 'pulpino_top.inst.power.rpt' 的目录
+['/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_']
+开始运行脚本...
+现在是第1个,正在运行脚本 'utils_preprocess.py' 使用数据目录: /home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ /home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_
+chip type is zero-riscy
+/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_/pulpino_top.inst.power.rpt
+size: 256
+NCPR Done.
+[K(eda) stxianyx@edaserver07:~/code/eda/ddl$ [K(eda) stxianyx@edaserver07:~/code/eda/ddl$ python autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py 
+开始搜索 '/home/stxianyx/code/eda/data/' 以找到包含 'pulpino_top.inst.power.rpt' 的目录
+['/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_']
+开始运行脚本...
+现在是第1个,正在运行脚本 'utils_preprocess.py' 使用数据目录: /home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ /home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_
+chip type is zero-riscy
+/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_/pulpino_top.inst.power.rpt
+size: 256
+NCPR Done.
+python autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kd ..[3Plsconda activate edaexit[K[2Plsclear[3Plscd yogurtpyramid/ls[Kclear[3Plscleard ..[3Plsclear[3Plsclear[3Plscd torchnetls[Kcd torchnetls[Kclear[3Plsclear[3Plscd ..lear[3Plsclear[3Plscd yogurtpyramid/ls[Kclear[3Plsexitconda activate edals[Kcd ..learpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ -pyscript=utils_preprocess.py [1@-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kd ..[3Plsconda activate edaexit[K[2Plsclear[3Plscd yogurtpyramid/ls[Kclear[3Plscleard ..[3Plsclear[3Plsclear[3Plscd torchnetls[Kcleard ..[3Plsclearonda activate edals[Kclearpython main.py [10Pclearaerpython main.py[9Pclaerearpython main.py [10Pclear[3Plsconda activate edalear[K[3Plscd ..lear[3Plscd torchnetls[Kclear[3Plsclear[3Plscd ..lear[3Plsclear[3Plscd yogurtpyramid/ls[Kclear[3Plsexitconda activate edals[Kcd ..learpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ -pyscript=utils_preprocess.py [1@-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kd ..[3Plsconda activate edaexit[K[2Plsclear[3Plscd yogurtpyramid/ls[Kclear[3Plscleard ..[3Plsclear[3Plsclear[3Plscd torchnetls[Kclear[3Plsclear[3Plscd ..lear[3Plsclear[3Plscd yogurtpyramid/ls[Kclear[3Plsexitconda activate edals[Kcd ..learpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ -pyscript=utils_preprocess.py [1@-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kd ..[3Plsconda activate edaexit[K[2Plsclear[3Plscd yogurtpyramid/ls[Kclear[3Plscleard ..[3Plsclear[3Plsclear[3Plscd torchnetls[Kcleard ..[3Plsclear[3Plscd ..lear[3Plscd torchnetls[Kclear[3Plsclear[3Plscd ..lear[3Plsclear[3Plscd yogurtpyramid/ls[Kclear[3Plsexitconda activate edals[Kcd ..learpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ -pyscript=utils_preprocess.py [1@-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ clear
+[H[J(eda) stxianyx@edaserver07:~/code/eda/ddl$ l
+autoprocess.py  [0m[01;34mpix2pix[0m/  [01;34mpyramid[0m/  utils_postprocess_matric.py  utils_preprocess.py  [01;34mVoc_Table[0m/
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ python infer done...result in output_coord2_final.json
+infer Done.
+uncpr loaded.
+coord2 loaded
+矩阵已保存到 /home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_/static_ir_PREDATA.npy
+Convent Done
+[K(eda) stxianyx@edaserver07:~/code/eda/ddl$ python uinfer done...result in output_coord2_final.json
+infer Done.
+ncpr loaded.
+coord2 loaded
+矩阵已保存到 /home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_/static_ir_PREDATA.npy
+Convent Done
+l[Kclearpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kd ..[3Plsconda activate edaexit[K[2Plsclear[3Plsexitconda activate edals[Kcd ..learpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ -pyscript=utils_preprocess.py [1@-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kl[Kpython u
+python: can't open file 'u': [Errno 2] No such file or directory
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ python ul[Kclearpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py 
+开始搜索 '/home/stxianyx/code/eda/data/' 以找到包含 'pulpino_top.inst.power.rpt' 的目录
+['/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_']
+开始运行脚本...
+现在是第1个,正在运行脚本 'utils_preprocess.py' 使用数据目录: /home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ /home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_
+chip type is zero-riscy
+/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_/pulpino_top.inst.power.rpt
+size: 256
+NCPR Done.
+^C
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ clear
+[H[J(eda) stxianyx@edaserver07:~/code/eda/ddl$ clearpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py 
+开始搜索 '/home/stxianyx/code/eda/data/' 以找到包含 'pulpino_top.inst.power.rpt' 的目录
+['/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_']
+开始运行脚本...
+Traceback (most recent call last):
+  File "autoprocess.py", line 91, in <module>
+    main()
+  File "autoprocess.py", line 85, in main
+    run_script(pyentrance, directories)
+  File "autoprocess.py", line 44, in run_script
+    subprocess.run(["python", script_path] + arg)
+UnboundLocalError: local variable 'arg' referenced before assignment
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ python autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py 
+开始搜索 '/home/stxianyx/code/eda/data/' 以找到包含 'pulpino_top.inst.power.rpt' 的目录
+['/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_']
+开始运行脚本...
+Traceback (most recent call last):
+  File "autoprocess.py", line 91, in <module>
+    main()
+  File "autoprocess.py", line 85, in main
+    run_script(pyentrance, directories)
+  File "autoprocess.py", line 44, in run_script
+    subprocess.run(["python", script_path] + arg)
+UnboundLocalError: local variable 'arg' referenced before assignment
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ clear
+[H[J(eda) stxianyx@edaserver07:~/code/eda/ddl$ clearpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py 
+开始搜索 '/home/stxianyx/code/eda/data/' 以找到包含 'pulpino_top.inst.power.rpt' 的目录
+['/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_']
+开始运行脚本...
+/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_
+chip type is zero-riscy
+/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_/pulpino_top.inst.power.rpt
+size: 256
+NCPR Done.
+^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[Binfer done...result in output_coord2_final.json
+infer Done.
+ncpr loaded.
+coord2 loaded
+矩阵已保存到 /home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_/static_ir_PREDATA.npy
+Convent Done
+^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+infer done...result in output_coord2_final.json
+infer Done.
+ncpr loaded.
+coord2 loaded
+矩阵已保存到 /home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_/static_ir_PREDATA.npy
+Convent Done
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ python autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py MM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K
+[K
+[KMM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py MM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K
+[K
+[KMM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py MM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K
+[K
+[KMM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py MM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K
+[K
+[KMM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py MM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K
+[KMM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ 
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ ls
+autoprocess.py  utils_postprocess_matric.py
+[0m[01;34mpix2pix[0m         utils_preprocess.py
+[01;34mpyramid[0m         [01;34mVoc_Table[0m
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ cd [K[K[Kcd pix2pix
+(eda) stxianyx@edaserver07:~/code/eda/ddl/pix2pix$ cd ..
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ cd ..pix2pixls[Kpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py MM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K
+[K
+[KMM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=utils_preprocess.py [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kt=pix2pix/
+allmodels/              models/
+Class_pix2pix_infer.py  options/
+data/                   util/
+datasets/               
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ python autoprocess.py --entrance=/home/stxianyx/code/eda/data/ --pyscript=pix2pix/Class_pix2pix_infer.py 
+开始搜索 '/home/stxianyx/code/eda/data/' 以找到包含 'pulpino_top.inst.power.rpt' 的目录
+['/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_']
+开始运行脚本...
+/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_
+chip type is zero-riscy
+initialize network with normal
+/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_ static_ir_POSTDATApredmidPR.npy
+yes
+All Finished! -------------------
+Exist Indexes =  1
+Effective Indexes =  1
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ cd pyramid
+(eda) stxianyx@edaserver07:~/code/eda/ddl/pyramid$ ls
+[0m[01;34mallmodels[0m            config_zeroriscy.json  [01;34msaved[0m
+[01;34mbase[0m                 [01;34mdata_loader[0m            screenlog.0
+Class_pyramid.py     [01;34mlogger[0m                 test.py
+config_fpu.json      [01;34mmodel[0m                  [01;34mtrainer[0m
+config.json          parse_config.py        train.py
+config_nonzero.json  [01;34m__pycache__[0m            [01;34mutils[0m
+(eda) stxianyx@edaserver07:~/code/eda/ddl/pyramid$ python Class_pyramid.py [KM(eda) stxianyx@edaserver07:~/code/eda/ddl/pyramid$ python Class_pyramid.py 
+['/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_']
+/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_
+chip type is zero-riscy
+/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_/static_ir_POSTDATApredmidPR.npy
+/home/stxianyx/code/eda/data/zero-riscy_freq_50_mp_1_fpu_65_fpa_1.0_p_6_fi_ar_ static_ir_POSTDATApredmidPR.npy
+yes
+All Finished! -------------------
+Exist Indexes =  1
+Effective Indexes =  1
+(eda) stxianyx@edaserver07:~/code/eda/ddl/pyramid$ [K(eda) stxianyx@edaserver07:~/code/eda/ddl/pyramid$ [K(eda) stxianyx@edaserver07:~/code/eda/ddl/pyramid$ [K(eda) stxianyx@edaserver07:~/code/eda/ddl/pyramid$ cd ..
+(eda) stxianyx@edaserver07:~/code/eda/ddl$ [C[21Preverse-i-search)`':[C[C[21@eda) stxianyx@edaserver07:~/code/eda/ddl$[Cexit
