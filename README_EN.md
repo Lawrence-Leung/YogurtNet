@@ -18,7 +18,9 @@ Model training relies on relevant data from five mainstream open source chips an
 
 ## Achievements and Honors
 
-YogurtNet won the third prize in the national finals, and the paper based on this work has been successfully submitted to the 2024 3rd International Conference on Electronics and Integrated Circuit Technology (EICT 2024), Nanjing, China. The citation  information will be updated after the paper is officially published in the *Journal of Physics*.
+YogurtNet won the third prize in the national finals, and the paper based on this work has been successfully submitted to the 2024 3rd International Conference on Electronics and Integrated Circuit Technology (EICT 2024), Nanjing, China. The citation information is listed below:
+
+Liang, L., Xian, Y., Guo, S., & Xie, Z. (2024). YogurtNet: Enhanced machine learning approach for voltage drop prediction. Journal of Physics: Conference Series, 2810(1), 012002. https://doi.org/10.1088/1742-6596/2810/1/012002
 
 ## Team Members
 
