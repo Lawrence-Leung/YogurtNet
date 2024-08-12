@@ -18,7 +18,7 @@ YogurtNet 系统基于 Python 和 PyTorch 构建，主要技术组件包括：
 
 YogurtNet 在全国总决赛中荣获三等奖，并基于该作品撰写的论文已成功投稿至 2024 第 3 届国际电子与集成电路技术会议（EICT 2024）。引用信息如下：
 
-Longxi Liang, Shaoshan Guo, and Zhuoming Xie. 2024. Design and Analysis of an Innovative Arbitrage Strategy: Bridging Stock Index Futures and Cross-border ETFs. In Proceedings of the 2024 Guangdong-Hong Kong-Macao Greater Bay Area International Conference on Digital Economy and Artificial Intelligence (DEAI '24). Association for Computing Machinery, New York, NY, USA, 909–914. https://doi.org/10.1145/3675417.3675568
+Liang, L., Xian, Y., Guo, S., & Xie, Z. (2024). YogurtNet: Enhanced machine learning approach for voltage drop prediction. Journal of Physics: Conference Series, 2810(1), 012002. https://doi.org/10.1088/1742-6596/2810/1/012002
 
 
 ## 团队成员
